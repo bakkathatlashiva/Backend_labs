@@ -14,7 +14,7 @@
 | Name                | Bakkathatla Shiva |
 | Registration Number | 252U1R9175        |
 | Section             | S-26              |
-
+| Class               | 112               |
 ## Project Objective
 
 This lab demonstrates the fundamentals of creating and running a Node.js backend server with Express.js. It covers project initialization with npm, dependency installation, Express application setup, route handling, JSON responses, date and time generation, HTTP status codes, and handling unknown routes.
@@ -109,13 +109,16 @@ http://localhost:3000/unknown
 ```
 
 ## Screenshots
-
-Screenshots are not currently available in this workspace. The following relative paths are reserved for the completed lab submission:
+Home Route
 
 ![Home Route](./Screenshot%202026-10-16%20113707.png)
+About Route
 ![About Route](./Screenshot%202026-10-16%20113752.png)
+Time Route
 ![Time Route](./Screenshot%202026-10-16%20113810.png)
+404 Route
 ![404 Route](./Screenshot%202026-10-16%20113841.png)
+
 The application is deployed on Render and is available at [https://lab-01-3udn.onrender.com/](https://lab-01-3udn.onrender.com/). Render installs dependencies with `npm install` and starts the application with `npm start`.
 
 ## Problems Faced and Solutions
