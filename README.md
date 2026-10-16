@@ -1,5 +1,7 @@
 # Lab 1: Node.js and Express Server
 
+**Live deployment URL:** [https://lab-01-3udn.onrender.com/](https://lab-01-3udn.onrender.com/)
+
 **Subject:** Backend Development Fundamentals  
 **Year/Term:** Year II, Term II  
 **University:** Aurora Deemed to be University  
@@ -114,7 +116,7 @@ Screenshots are not currently available in this workspace. The following relativ
 ![About Route](./Screenshot%202026-10-16%20113752.png)
 ![Time Route](./Screenshot%202026-10-16%20113810.png)
 ![404 Route](./Screenshot%202026-10-16%20113841.png)
-To deploy the application, use a Node.js-compatible hosting service, configure the service to install dependencies with `npm install`, and start the application with `node server.js`. The hosting provider should expose the application port through its configured environment. After deployment, replace the status at the top of this README with the actual public URL.
+The application is deployed on Render and is available at [https://lab-01-3udn.onrender.com/](https://lab-01-3udn.onrender.com/). Render installs dependencies with `npm install` and starts the application with `npm start`.
 
 ## Problems Faced and Solutions
 
