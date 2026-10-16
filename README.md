@@ -112,6 +112,7 @@ Screenshots are not currently available in this workspace. The following relativ
 
 ![Screenshot](./Screenshot%202026-10-16%20113707.png)
 ![About Route](./Screenshot%202026-10-16%20113752.png)
+![Time Route](./Screenshot%202026-10-16%20113810.png)
 To deploy the application, use a Node.js-compatible hosting service, configure the service to install dependencies with `npm install`, and start the application with `node server.js`. The hosting provider should expose the application port through its configured environment. After deployment, replace the status at the top of this README with the actual public URL.
 
 ## Problems Faced and Solutions
