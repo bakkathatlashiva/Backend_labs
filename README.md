@@ -112,11 +112,17 @@ http://localhost:3000/unknown
 **Home Route**
 
 ![Home Route](./Screenshot%202026-10-16%20113707.png)
-**About Route**
+
+  **About Route**
+  
 ![About Route](./Screenshot%202026-10-16%20113752.png)
-**Time Route**
+
+  **Time Route**
+  
 ![Time Route](./Screenshot%202026-10-16%20113810.png)
-**404 Route**
+
+  **404 Route**
+  
 ![404 Route](./Screenshot%202026-10-16%20113841.png)
 
 The application is deployed on Render and is available at [https://lab-01-3udn.onrender.com/](https://lab-01-3udn.onrender.com/). Render installs dependencies with `npm install` and starts the application with `npm start`.
