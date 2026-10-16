@@ -110,12 +110,8 @@ http://localhost:3000/unknown
 
 Screenshots are not currently available in this workspace. The following relative paths are reserved for the completed lab submission:
 
-![Screenshot](./Screenshot%2026-10-16%113707.png)
-![Screenshot](./Screenshot%202026-10-16%20113707.png)
+![Screenshot](./Screenshot%2026-10-16%113707.png
 
-![Time Route](Screenshot%2026-10-16%20113707.png)
-
-![404 Route](screenshots/404.png)
 
 To deploy the application, use a Node.js-compatible hosting service, configure the service to install dependencies with `npm install`, and start the application with `node server.js`. The hosting provider should expose the application port through its configured environment. After deployment, replace the status at the top of this README with the actual public URL.
 
