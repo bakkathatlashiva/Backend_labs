@@ -111,7 +111,7 @@ http://localhost:3000/unknown
 Screenshots are not currently available in this workspace. The following relative paths are reserved for the completed lab submission:
 
 ![Screenshot](./Screenshot%2026-10-16%113707.png)
-![About Route](screenshots/about.png)
+![About Route](Screenshot%2026-10-16%113752.png)
 
 ![Time Route](screenshots/time.png)
 
