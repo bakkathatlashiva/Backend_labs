@@ -1,19 +1,17 @@
 # Lab 1: Node.js and Express Server
 
-**Live deployment URL:** Not deployed yet
-
 **Subject:** Backend Development Fundamentals  
 **Year/Term:** Year II, Term II  
 **University:** Aurora Deemed to be University  
-**Faculty:** Joel Prashanth D
+**Faculty:** Mr. Joel Prashanth D
 
 ## Student Details
 
-| Field               | Details    |
-| ------------------- | ---------- |
-| Name                | Shiva      |
-| Registration Number | 252U1R9175 |
-| Section             | S-26       |
+| Field               | Details           |
+| ------------------- | ----------------- |
+| Name                | Bakkathatla Shiva |
+| Registration Number | 252U1R9175        |
+| Section             | S-26              |
 
 ## Project Objective
 
@@ -119,10 +117,6 @@ Screenshots are not currently available in this workspace. The following relativ
 ![Time Route](screenshots/time.png)
 
 ![404 Route](screenshots/404.png)
-
-## Deployment
-
-This project has not been deployed yet. The live deployment URL is therefore **Not deployed yet**.
 
 To deploy the application, use a Node.js-compatible hosting service, configure the service to install dependencies with `npm install`, and start the application with `node server.js`. The hosting provider should expose the application port through its configured environment. After deployment, replace the status at the top of this README with the actual public URL.
 
