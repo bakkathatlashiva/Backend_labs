@@ -1,0 +1,30 @@
+### Get all books
+GET http://localhost:3000/books/
+
+### Get one book by ID
+GET http://localhost:3000/books/2/
+
+### Add a book
+POST http://localhost:3000/books/
+Content-Type: application/json
+
+{
+  "title": "Clean Code",
+  "author": "Robert C. Martin",
+  "price": 500,
+  "pages": 464
+}
+
+### Update a book
+PUT http://localhost:3000/books/2/
+Content-Type: application/json
+
+{
+  "title": "Updated Book",
+  "author": "Robert C. Martin",
+  "price": 550,
+  "pages": 470
+}
+
+### Delete a book
+DELETE http://localhost:3000/books/3/
