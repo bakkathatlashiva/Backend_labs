@@ -1,6 +1,6 @@
 # Lab 1: Node.js and Express Server
 
-**Live deployment URL:** [https://lab-01-3udn.onrender.com/](https://lab-01-3udn.onrender.com/)
+**Live deployment URL:** [https://backend-labs-3.onrender.com/)
 
 **Subject:** Backend Development Fundamentals  
 **Year/Term:** Year II, Term II  
