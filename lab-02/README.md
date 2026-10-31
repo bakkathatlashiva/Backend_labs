@@ -21,7 +21,7 @@
 
 This project connects an Express.js server to an SQLite database and exposes HTTP routes for performing Create, Read, Update, and Delete (CRUD) operations on book records.
 
-**Live deployment URL:** `[Not deployed yet]`
+**Live deployment URL:** https://backend-labs-4-iu90.onrender.com/books
 
 ## Project Objective
 
@@ -262,27 +262,6 @@ Run the request blocks in this order:
 
 The `POST` request includes the sample JSON body in `app.http`. The `PUT` request includes an updated JSON body. If the `PUT` or `DELETE` request is run after deleting book ID `1`, first recreate a test book or change the ID to an existing book so the response can be captured with the expected status.
 
-### Capture and save the endpoint screenshots
-
-The screenshots must show the actual REST Client response in VS Code, including the request URL, HTTP status, and response JSON. Do not create or edit an image to imitate a response.
-
-1. Execute one request and verify its expected response.
-2. Keep the REST Client response visible in VS Code.
-3. Press **Win + Shift + S** to open Windows Snipping Tool.
-4. Select the area containing the VS Code request/response and status line.
-5. Select the notification preview to open the capture, then use **Save**.
-6. Save the PNG in `lab-02/screenshots/` using exactly the corresponding filename from the table above.
-7. If Windows asks whether to replace an existing file, choose **Cancel**. Use a different temporary name, verify that it is the real capture, and then replace the zero-byte placeholder only if you explicitly intend to do so.
-8. Repeat for all five endpoint requests.
-
-### Capture the SQLite database view
-
-1. Stop or leave the server running; the database file is available at `lab-02/bookstore.db`.
-2. Open `bookstore.db` in a SQLite viewer extension in VS Code, or use another local SQLite database viewer.
-3. Open the `book` table and show the columns `id`, `title`, `author`, `price`, and `pages`, together with the records.
-4. Press **Win + Shift + S** and save the capture as `lab-02/screenshots/database-view.png`.
-
-The database view must be an actual view of this project's `bookstore.db`, not a recreated image or sample table.
 
 ## Screenshots
 
@@ -311,31 +290,3 @@ The following images must be captured from the running project and saved in the 
 ### Database view
 
 ![SQLite database table view](./screenshots/database-view.png)
-
-## Problems Faced and Solutions
-
-| Problem Faced                                                     | Solution                                    |
-| ----------------------------------------------------------------- | ------------------------------------------- |
-| `[Describe a problem encountered during setup or implementation]` | `[Describe the solution or debugging step]` |
-| `[Describe a problem encountered while testing an endpoint]`      | `[Describe the solution or result]`         |
-| `[Add another problem if applicable]`                             | `[Add the corresponding solution]`          |
-
-## Submission Checklist
-
-- [ ] Replace the student detail placeholders with accurate information.
-- [ ] Add the required Postman and database screenshots to `screenshots/`.
-- [ ] Test all five API endpoints.
-- [ ] Verify the documented status codes and error responses.
-- [ ] Add the live deployment URL, or keep `[Not deployed yet]` if the project has not been deployed.
-- [ ] Confirm that `node_modules/` and `.env` are not committed.
-
-## Git and Security Notes
-
-Do not commit generated dependencies or environment-specific secrets. The following entries should be included in `.gitignore`:
-
-```gitignore
-node_modules/
-.env
-```
-
-The `node_modules/` directory is recreated by running `npm install`. The `.env` file is reserved for local environment variables and must not contain committed credentials, API keys, or other secrets.
