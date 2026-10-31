@@ -299,4 +299,21 @@ The following images must be captured from the running project and saved in the 
 | GitHub push errors due to an incorrect remote URL.                | Verified the Git remote URL and configured the correct repository.       |
 | Render deployment failed because of an incorrect root directory.   | Set the root directory to `lab-02` and configured the correct build and start commands. |
 | GLIBC compatibility error while running SQLite3 on Render.         | Updated the SQLite3 dependency and attempted to rebuild the native module from source. |
+Learning Outcomes
+
+Understood how to create and configure an SQLite database using Node.js.
+
+Learned how to connect an Express.js application with an SQLite database.
+
+Gained practical experience implementing CRUD operations (Create, Read, Update, Delete).
+
+Learned to develop RESTful API endpoints using GET, POST, PUT, and DELETE methods.
+
+Understood how to execute SQL queries and manage database records.
+
+Learned how to test API endpoints using VS Code REST Client.
+
+Gained experience deploying a backend application using GitHub and Render.
+
+Improved debugging and problem-solving skills while handling database and deployment errors.
 
