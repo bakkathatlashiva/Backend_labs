@@ -290,3 +290,13 @@ The following images must be captured from the running project and saved in the 
 ### Database view
 
 ![SQLite database table view](./screenshots/database-view.png)
+## Problems Faced and Solutions
+
+| Problem Faced                                                     | Solution                                                                 |
+| ----------------------------------------------------------------- | ------------------------------------------------------------------------ |
+| Difficulty installing and configuring SQLite3 with Node.js.       | Installed the required packages and configured the database connection correctly. |
+| Errors while testing GET, POST, PUT, and DELETE endpoints.        | Corrected API routes, request parameters, HTTP methods, and SQL queries. |
+| GitHub push errors due to an incorrect remote URL.                | Verified the Git remote URL and configured the correct repository.       |
+| Render deployment failed because of an incorrect root directory.   | Set the root directory to `lab-02` and configured the correct build and start commands. |
+| GLIBC compatibility error while running SQLite3 on Render.         | Updated the SQLite3 dependency and attempted to rebuild the native module from source. |
+
