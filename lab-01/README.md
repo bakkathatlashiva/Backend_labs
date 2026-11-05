@@ -1,6 +1,6 @@
 # Lab 1: Node.js and Express Server
 
-**Live deployment URL:** [https://lab-01-3udn.onrender.com/](https://lab-01-3udn.onrender.com/)
+**Live deployment URL:** [https://backend-labs-3.onrender.com/)
 
 **Subject:** Backend Development Fundamentals  
 **Year/Term:** Year II, Term II  
@@ -125,7 +125,7 @@ http://localhost:3000/unknown
   
 ![404 Route](./Screenshot%202026-10-16%20113841.png)
 
-The application is deployed on Render and is available at [https://lab-01-3udn.onrender.com/](https://lab-01-3udn.onrender.com/). Render installs dependencies with `npm install` and starts the application with `npm start`.
+The application is deployed on Render and is available at [https://backend-labs-3.onrender.com/). Render installs dependencies with `npm install` and starts the application with `npm start`.
 
 ## Problems Faced and Solutions
 
