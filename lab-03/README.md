@@ -13,7 +13,7 @@
 
 ## Live Link
 
-**[https://backend-labs-6-lmft.onrender.com/books/]((https://backend-labs-6-lmft.onrender.com/books/))**
+**[https://backend-labs-6-lmft.onrender.com/books/](https://backend-labs-6-lmft.onrender.com/books/)**
 
 > Replace this with the real URL shown in your Render dashboard after deployment.
 > If the project cannot be deployed, write the reason here instead and rely on the Postman screenshots below.
